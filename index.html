@@ -1,12 +1,89 @@
 <!DOCTYPE html> 
- <html>
-   <head>
-     <title> Page Title</title>
-   </head>
-   <body> 
-     
-     <h1> This Is A Heading</h1>
-     <p> This Is A paragraph.</p>
-     
-   </body>
+ <html lang="en">
+ <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatabile" content="IE=edge"
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+      <title>Personal Portfolio</title>
+      <link rel="stylesheet" href="style.css">
+      <script src="https://fonts.googleapis.com/css2?family"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <ul class="link-group">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <section id="home">
+    <div class="main">
+      <h1 class="headings">Hello I'm <br> Alaya Guajardo</h1>
+      <button class="btn">
+       An Upcomming Developer
+      </button>
+    </div>
+  </section>
+
+  <section id="about">
+    <div id="pic">
+      <h1 class="headings">ABOUT ME</h1>
+      <img src="portfolio.jpg" alt="">
+      <div id="intro">
+        <h2>ALAYA GUAJARDO</h2>
+        <p>I'm an umcomming developer, Currently located in Houston,TX. I've been in a coding boot camp through the University of Austin, were we touch base on front, and backend development. Other than web Developer, I also am interested in learning web design. This portfolio is the start to a long journey in coding for me. So not only do I have hope it reaches the right audience, I can't wait to dive into my tech career.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h1 class="headings">PROJECTS</h1>
+    <div class="gallery">
+      <img src="portfolio2.jpg" alt="">
+      <img src="portfolio3.jpg" alt="">
+      <img src="portfolio4.jpg" alt="">
+      <img src="portfolio5.jpg" alt="">
+      <img src="portfolio6.jpg" alt="">
+      <img src="portfolio7.jpg" alt="">
+    </div>
+  </section>
+
+  <section id="skills">
+    <h1 class="headings">Skills</h1>
+    <div class="row">
+      <div class="box">
+        <img src="html.JPG" alt="">
+        <h1 class="headings">HTML</h1>
+        <p>HTML is the format used to creating,editing, or uploading things onto a browser. This is one of the first skills I learned and picked up in my boot camp.</p>
+      </div>
+      <div class="box">
+        <img src="css.JPG" alt="">
+        <h1 class="headings">CSS</h1>
+        <p>Cascade style sheets, better known as CSS. This is the program used to describe the HTML elements. Its helped me progress in coding by picking up the simple tricks. This can control the layout of multple web pages at once, and store external stylesheets.</p>
+      </div>
+      <div class="box">
+        <img src="java.JPG" alt="">
+        <h1 class="headings">JAVASCRIPT</h1>
+        <p>Javascript is the program that allows you to implement complex features onto websites. I've learned how to display interactive behavior onto my web pages. This can also be used for game development and building web servers and deploying server applications</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1 class="headings">CONTACT</h1>
+    <form action="" class="form">
+      <input type="text" name="name" class="input" placeholder="Alaya Guajardo">
+      <input type="email" name="email" class="input"
+      placeholder="alayaguxj@gmail.com">
+      <textarea name="msg" id="msg" cols="30" rows="10"
+      placeholder="Enter Your Message"></textarea>
+      <input type="sumbit" value="SEND" id="send">
+    </form>
+  </section>
+
+</body>
 </html>
